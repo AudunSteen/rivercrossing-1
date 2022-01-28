@@ -2,7 +2,6 @@ package state
 
 import "testing"
 
-// Brukt til å teste om MoveTo-funksjon fungerte som den skal, fil feile nå.
 func Test1(t *testing.T) {
 	wanted := "[V---\\[kylling rev korn mann]\\ \\________________________/ _____________________/---Ø]"
 	state := MoveTo("vest")
